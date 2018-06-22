@@ -1,0 +1,66 @@
+body {
+    margin-bottom: 40px;
+}
+
+#mainMenu {
+    margin-bottom: 40px;
+}
+
+#mainMenu .active .nav-link {
+    cursor: default;
+}
+
+.box {
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+#emptyContent {}
+
+#loadingBar {
+    display: none;
+}
+
+#usersTable {
+    display: none;
+}
+
+#usersTable tr {
+    transition: all .2s ease-in-out;
+}
+
+#usersTable tr:hover {
+    cursor: pointer;
+    background-color: rgb(238, 203, 0);
+}
+
+#usersTable tr img {
+    transition: all .2s ease-in-out;
+}
+
+#usersTable tr:hover img {
+    height: 200px;
+}
+
+input::placeholder {
+    color: red !important;
+}
+
+input:hover {}
+
+#searchRow {
+    width: 50%;
+    transition: all .5s ease-in-out;
+}
+
+#searchRow.full {
+    width: 100%;
+}
